@@ -10,11 +10,11 @@
 
     <repositories>
         <repository>
-            <id>division</id>
+            <id>division-utils</id>
             <url>https://raw.github.com/dnc-soft/division-utils/repository</url>
         </repository>
         <repository>
-            <id>division</id>
+            <id>division-mapping</id>
             <url>https://raw.github.com/dnc-soft/division-mapping/repository</url>
         </repository>
     </repositories>
@@ -47,8 +47,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
         </plugins>

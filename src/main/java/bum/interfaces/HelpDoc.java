@@ -1,7 +1,8 @@
 package bum.interfaces;
 
-import java.rmi.RemoteException;
 import mapping.MappingObject;
+
+import java.rmi.RemoteException;
 
 public interface HelpDoc extends MappingObject {
   public String getDoc() throws RemoteException;
